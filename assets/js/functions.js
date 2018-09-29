@@ -49,6 +49,6 @@ const mergeFizzBuzz = $('.fizzBuzzButton').on('click', function(){
 	console.log('this is fizzbuzz in a list:', fizzBuzz);
 	console.log('this is adding values of fizzbuzz:', fizzBuzz.length);	
 }
-//return mergeFizzBuzz;
+//return mergeFizzBuzz; this was placed before handling the values of arrays to be called.
 })
 
