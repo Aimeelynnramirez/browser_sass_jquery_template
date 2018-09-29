@@ -1,0 +1,19 @@
+{
+  "name": "challengeproject",
+  "version": "1.0.0",
+  "description": "sass and jquery template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aimeelynnramirez/challengeProject.git"
+  },
+  "author": "Aimee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aimeelynnramirez/challengeProject/issues"
+  },
+  "homepage": "https://github.com/Aimeelynnramirez/challengeProject#readme"
+}
