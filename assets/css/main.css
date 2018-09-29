@@ -387,7 +387,6 @@ body {
     width: 100%; }
   .page-home pre {
     text-align: left;
-    font-family: "Fira Mono", monospace;
     font-size: 30px;
     color: #d0d0d0;
     position: absolute;
