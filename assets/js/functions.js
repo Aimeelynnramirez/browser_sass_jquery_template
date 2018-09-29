@@ -2,108 +2,38 @@
 window.onload = function () {
 $( document ).ready(function() {
     $('.button').on('click', function(){
-  console.log('this is clicking');
+  //console.log('this is clicking');
   
     })
   
   });
-};
-(function (root, factory) {
-	if ( typeof define === 'function' && define.amd ) {
-		define(['buoy'], factory(root));
-	} else if ( typeof exports === 'object' ) {
-		module.exports = factory(require('buoy'));
-	} else {
-		root.myPlugin = factory(root, root.buoy);
+
+
+	
+	
+	const merge = $('.button').on('click', function(){
+     //this is name of the array initally "basketOne.length"
+	const basketOne = ['pineapples','pears','tomatoes'];
+	//console.log('this is first array of types:', basketOne);
+	for (i=0; i < basketOne.length; i++) {
+		basketOne[''] = i;
+		console.log('this is the first basket of fruit #:', i);
 	}
-})(typeof global !== "undefined" ? global : this.window || this.global, function (root) {
-
-	'use strict';
-
-	//
-	// Variables
-	//
-
-	var myPlugin = {}; // Object for public APIs
-	var supports = !!document.querySelector && !!root.addEventListener; // Feature test
-	var settings; // Placeholder variables
-
-	// Default settings
-	var defaults = {
-		someVar: 123,
-		initClass: 'js-myplugin',
-		callbackBefore: function () {},
-		callbackAfter: function () {}
-	};
-
-
-	//
-	// Methods
-	//
-
-	// @todo add plugin methods here
-
-	/**
-	 * Handle events
-	 * @private
-	 */
-	var eventHandler = function (event) {
-		// @todo Do something on event
-	};
-
-	/**
-	 * Destroy the current initialization.
-	 * @public
-	 */
-	myPlugin.destroy = function () {
-
-		// If plugin isn't already initialized, stop
-		if ( !settings ) return;
-
-		// Remove init class for conditional CSS
-		document.documentElement.classList.remove( settings.initClass );
-
-		// @todo Undo any other init functions...
-
-		// Remove event listeners
-		document.removeEventListener('click', eventHandler, false);
-
-		// Reset variables
-		settings = null;
-
-	};
-
-	/**
-	 * Initialize Plugin
-	 * @public
-	 * @param {Object} options User settings
-	 */
-	myPlugin.init = function ( options ) {
-
-		// feature test
-		if ( !supports ) return;
-
-		// Destroy any existing initializations
-		myPlugin.destroy();
-
-		// Merge user options with defaults
-		settings = buoy.extend( defaults, options || {} );
-
-		// Add class to HTML element to activate conditional CSS
-		document.documentElement.classList.add( settings.initClass );
-
-		// @todo Do stuff...
-
-		// Listen for click events
-		document.addEventListener('click', eventHandler, false);
-
-	};
-
-
-	//
-	// Public APIs
-	//
-
-	return myPlugin;
-
-});
+	//this is renaming the array
+	const basketTwo = ['apples','peaches','bananas'];
+	//console.log('this is second array of types:', basketTwo);
+	for (j=0; j < basketTwo.length; j++) {
+		 basketTwo[''] = j;
+		console.log('this is the second basket of fruit #:',  j);
+	}
+/* 	this was the first step to getting the names merged but ',' needed to be cleaner.
+    const list = basketOne +','+ basketTwo; 
+	console.log(this, list); */
+	let list = i + j;    
+	console.log('this is list', list);
+	for (k=0; k < list.length; k++) {  
+		let k = '';
+		console.log('this is length', k, merge);
+	}
+	})
+};
