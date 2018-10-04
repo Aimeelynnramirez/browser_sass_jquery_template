@@ -1,5 +1,7 @@
 # Welcome to a simple created template:
 ##  by aimeelynnramirez.github.io 
+
+------------------------------
 Feel free to checkout what is going on with ways of having jquery in your template running with Sass! 
 ------------------------------
 
@@ -10,4 +12,5 @@ Feel free to checkout what is going on with ways of having jquery in your templa
 - `npm run start` 
 
 
+------------------------------
 
