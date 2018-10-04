@@ -2,8 +2,7 @@
 ##  by aimeelynnramirez.github.io 
 
 ------------------------------
-Feel free to checkout what is going on with ways of having jquery in your template running with Sass! 
-------------------------------
+Feel free to checkout what is going on with ways of having JQuery in your Template running with Sass! 
 
 ### Git Clone:
 - `https://github.com/Aimeelynnramirez/challengeProject.git`
