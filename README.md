@@ -3,9 +3,9 @@
 ------------------------------
 Feel free to checkout what is going on with ways of having jquery in your template running with Sass! 
 
--- Git Clone:
+- Git Clone:
 `https://github.com/Aimeelynnramirez/challengeProject.git`
--- Running template:
+- Running template:
 - `npm install`
 - `npm run start` 
 
