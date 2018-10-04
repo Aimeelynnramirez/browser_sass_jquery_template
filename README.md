@@ -9,8 +9,9 @@ Feel free to checkout what is going on with ways of having JQuery in your Templa
 ### Running template:
 - `npm install`
 - `npm run start` 
-### or
+------------------------------
+### OR
 - simply drag index.html page on to browser to see the responsive page. 
 
-------------------------------
+
 
